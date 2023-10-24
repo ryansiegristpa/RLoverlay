@@ -9,19 +9,18 @@ Real-time updating broadcast overlay featuring a custom scoreboard, player stati
   
 # Getting Started
 To run the overlay locally:
-Clone the repository
-Run yarn install to install dependencies
-Run yarn start to start the dev server
-Open http://localhost:3000 to view the overlay
+1. Clone the repository
+2. Run `yarn install` to install dependencies
+3. Run `yarn start` to start the dev server
+4. Open http://localhost:3000 to view the overlay
 
 # To build for production:
-Copy code
-yarn build
+`yarn build`
 This will generate optimized production assets in the build folder.
 
 # Configuration
 The overlay fetches real-time state from a local Node.js server. Start the server with:
-nodemon controller.js
+`nodemon controller.js`
 
 This will serve data from state.json. See state.example.json for the expected format.
 The React app polls this API every 1000ms to update the overlay.
