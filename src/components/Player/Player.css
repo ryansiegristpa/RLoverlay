@@ -1,0 +1,46 @@
+.player-box{
+  width: 300px;
+  height: 40px;
+
+  background-color: var(--background-transparency-color);
+  color: #FFFFFF;
+}
+
+.player {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+}
+
+/* Player Information */
+.player-box .player-info {
+  width: 100%;
+  height: 30px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.player-box .player-info .player-boost-text-v2 {
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: -1px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.player-box .player-info .player-name {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  font-weight: bold;
+}
+
+/* BG Colors */
+.bg-blue-team{
+  background-color: var(--blue-color); 
+}
+
+.bg-orange-team{
+  background-color: var(--orange-color); 
+}
