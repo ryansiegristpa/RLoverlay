@@ -1,6 +1,8 @@
 # RLoverlay
 Real-time updating broadcast overlay featuring a custom scoreboard, player statistic meters, and a post-match display for Epic Games’ video game Rocket League. Written in React for use with https://gitlab.com/bakkesplugins/sos
 
+![image](https://github.com/ryansiegristpa/RLoverlay/assets/135390943/008ef209-d02b-42fa-8f8f-f1255ead2da0)
+
 # Features
 - Displays real-time Rocket League match data
 - Easy to configure and customize
